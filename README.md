@@ -1,4 +1,4 @@
-# Utility belt snippets for JS objects
+# JS object experiments module
 
 > ### chainLength(_target_):_Number
 > _target_  - target object
