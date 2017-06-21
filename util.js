@@ -1,7 +1,7 @@
 (function(exports){
   'use strict'
 
-  function countPrototypesInChain(target){
+  function chainLength(target){
     var count=0;
 
     function hasPrototype(o){
@@ -20,6 +20,7 @@
   exports.utils = {
     chainLength: chainLength
   }
+
 }((typeof export === 'undefined')
   ? window
   : exports
