@@ -4,4 +4,4 @@
 > _target_  - target object
 > 
 > #### Returns
-> A number representing the number of prototypes in the chain for the object provided as the _target_
+    > A number representing the number of prototypes in the chain for the object provided as the **target** _including_ the Object prototype.
